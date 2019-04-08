@@ -662,7 +662,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: /Users/shloksobti/Desktop/Unity Projects/MagicLeap Testing/Certificates/initialdevelopment.cert
+    m_CertPath: /Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert
     m_PrivateKeyPath: 
   luminIsChannelApp: 0
   luminVersion:

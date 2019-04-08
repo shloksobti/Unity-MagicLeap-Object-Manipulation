@@ -23,20 +23,21 @@ public class CalibrationManager : MonoBehaviour
 
     //Other things
    
-    bool pulled;
+    bool triggerPulled;
     Quaternion lastControllerOrientation;
+    Vector3 offsetToController;
     Quaternion rotationDifference;
     Vector3 angles;
     private GameObject copyController;
     private ControllerConnectionHandler _controllerConnectionHandler;
     [HideInInspector] public float triggerValue;
-    private const float TriggerThresh = 0.2f;
+    private const float triggerThresh = 0.2f;
 
     // Use this for initialization
     void Start()
     {
         //This boolean describes whether the trigger is pulled.
-        pulled = false;
+        triggerPulled = false;
 
         //_controller = MLInput.GetController(MLInput.Hand.Left);
 
@@ -45,36 +46,45 @@ public class CalibrationManager : MonoBehaviour
         _controllerConnectionHandler = GameObject.Find("Controller").GetComponent<ControllerConnectionHandler>();
         _controller = _controllerConnectionHandler.ConnectedController;
 
+        offsetToController = new Vector3();
     }
 
 
     // Update is called once per frame
     void Update()
     {
+        
+        //Trigger logic to manipulate the virtualFrameObject
         triggerValue = _controller.TriggerValue;
-        if (CollisionDetector._moveable && triggerValue > TriggerThresh)
+        if (triggerValue >= triggerThresh)
         {
+            //Decide if we should initiate or continue movement, or do nothing
 
-            if (!pulled) // Captures the instance trigger is pulled
-                lastControllerOrientation = controllerObject.transform.rotation; //Save controller orientation.
+            //Initialize movement
+            if (CollisionDetector._moveable && !triggerPulled)
+            {
+                triggerPulled = true;
+                lastControllerOrientation = controllerObject.transform.rotation;
+                offsetToController = controllerObject.transform.worldToLocalMatrix * (virtualFrameObject.transform.position - controllerObject.transform.position);
+            }
+            //Move virtualFrameObject with the controller
+            else if (triggerPulled)
+            {
+                rotationDifference = controllerObject.transform.rotation * Quaternion.Inverse(lastControllerOrientation);
+                lastControllerOrientation = controllerObject.transform.rotation;
+                virtualFrameObject.transform.rotation = rotationDifference * virtualFrameObject.transform.rotation;
 
-            copyController.transform.position = _controller.Position;
-            copyController.transform.rotation = _controller.Orientation;
-            Vector3 v3 = copyController.transform.localToWorldMatrix * ((virtualFrameObject.transform.position - controllerObject.transform.position)); 
-            virtualFrameObject.transform.position = _controller.Position + v3;
+                Vector3 offsetToWorld = controllerObject.transform.localToWorldMatrix * offsetToController;
+                virtualFrameObject.transform.position = offsetToWorld + controllerObject.transform.position;
 
-
-            // Apply the rotation from lastcontrolorientation to current orientation
-            rotationDifference = Quaternion.Inverse(lastControllerOrientation) * controllerObject.transform.rotation;
-            angles = rotationDifference.eulerAngles;
-            virtualFrameObject.transform.Rotate(angles, Space.Self);
-            pulled = true;
+            }
         }
         else
         {
-            //Trigger is released.
-            pulled = false;
+            if (triggerPulled)
+                triggerPulled = false;
         }
+
 
     }
 

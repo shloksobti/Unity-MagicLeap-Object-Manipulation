@@ -1,0 +1,268 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "9d22eca70192c6a5f53f7559d76a22aff3362160",
+   "pkgpath": "Data/095890d8c9bde1a45b549a17e6e6f961",
+   "size": 5036,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/095890d8c9bde1a45b549a17e6e6f961"
+  },
+  {
+   "compression": 8,
+   "hash": "2641d44f95241091dd78c9203abf7b64a8d3ef3c",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 2785492,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "a01173c79ea3e0279a50612ea4cb36ad2608cdff",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 33998512,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "ffba3e1231758ba8221047c3c24c6a25115e2fa6",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/libil2cpp.so-f1cdc9f41c49f0b9",
+   "xfrm_size": 33999270
+  },
+  {
+   "compression": 8,
+   "hash": "dc64ed4bee950e5ce1ab12268f627a3db179e4af",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 220456,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "929e85a790015959848f12c9df9e8abf7732b842",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/AudioPluginMSASpatializer.so-acddc0be81d38c16",
+   "xfrm_size": 221214
+  },
+  {
+   "compression": 8,
+   "hash": "aed32544e1ea67c511396569fcb89b586b15d839",
+   "pkgpath": "bin/UnityEngine.SpatialTracking.dll",
+   "size": 9216,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Plugins/UnityEngine.SpatialTracking.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "715f293d231a26472ba1672c3e59f76cb0e5e364",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 65536,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "d93ff7b64d92abd6dbb8419c3348ab5f56ad5ec5",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 728232,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "4e7bf5a08e96eb6ec82d69024de466f00f866022",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/UnityMagicLeap.so-acddc0be81d38c16",
+   "xfrm_size": 728990
+  },
+  {
+   "compression": 8,
+   "hash": "a765bb75be250a6992c1a46fc23a55501e369b85",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "c37f2fa2e43422106acb31770ee106a91ac57ed0",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/libml_camera_plugin.so-acddc0be81d38c16",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "633780c922a0dbfe032638afff9a25e3fc49219f",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 38792,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "10737251fd8ba16e8c42e5f86d6a12ad45470306",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/libml_mediaplayer_plugin.so-acddc0be81d38c16",
+   "xfrm_size": 39550
+  },
+  {
+   "compression": 8,
+   "hash": "5629c7ff5fb59ddc72778d4b9d3dbadcde480998",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 328192,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "dc1423ee40a78f4701880b37e1f07bc4f3500e9d",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3308004,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "3f702d40c1354f8144e5d5e69d1c8193218e5aeb",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 407276,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "9bbb5e3aae616602db933abd34140e11132fccea",
+   "pkgpath": "Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json",
+   "size": 438,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/UnitySubsystems/Runtime/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "e94169e04982098c15b71dea64d4bb6da942f232",
+   "pkgpath": "Data/boot.config",
+   "size": 76,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "becb6e5fe6e64354398f061ea299f0eaa9803049",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 35500,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "91a66a5c4a5cadfac80eda037cb8818e694f4773",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 36508,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "ae81f9030425cbb6b78ea438fda2e6144f431e73",
+   "pkgpath": "Data/level0",
+   "size": 14884,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "39a757c014a395fd264dfc4f1e5d9f311e99da76",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1512890,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "3b9367ade1279d67688632db548a75979ac8ddba",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 524288,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "8f59c553fa65e4c62b244f94275fdf50ef6a40e8",
+   "pkgpath": "bin/Player.elf",
+   "size": 22318968,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "75799a0851f4bf8823435824f82985076c7af79b",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/Player.elf-5687af7ae773bca8",
+   "xfrm_size": 22319726
+  },
+  {
+   "compression": 8,
+   "hash": "29ed565d6585f619b5755cc9156689839141dabe",
+   "pkgpath": "manifest.xml",
+   "size": 641,
+   "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "ad265ab04d63bcf25764029da6f7fef230c181b8",
+     "developer_id": "b1dea48f-c97e-49cd-bb5d-aace2010d01e"
+    }
+   },
+   "xfrm_hash": "bb62b1ddd8a664c08a2de6c097084c00bbeacdb9",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/manifest.xml-5687af7ae773bca8",
+   "xfrm_size": 654
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/shloksobti/MagicLeap/mlsdk/v0.19.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+    },
+    "taildata": {
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a77a42601a7aecdf5ea3f5da88782867654f25ad",
+   "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/libc++_shared.so-5a4528a6b39de968",
+   "xfrm_size": 977590
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert"
+  },
+  "taildata": {
+   "devcert": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Certificates/initialdevelopment.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
