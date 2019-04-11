@@ -671,6 +671,7 @@ PlayerSettings:
   luminPrivilege:
   - ControllerPose
   - GesturesSubscribe
+  - Internet
   luminMinimumPlatformAPILevel: 3
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2

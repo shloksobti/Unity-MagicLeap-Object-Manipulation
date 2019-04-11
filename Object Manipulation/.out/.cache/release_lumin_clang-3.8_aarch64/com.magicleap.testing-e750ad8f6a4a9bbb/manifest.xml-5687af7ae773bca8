@@ -3,6 +3,7 @@
     <uses-privilege ml:name="LowLatencyLightwear" />
     <uses-privilege ml:name="ControllerPose" />
     <uses-privilege ml:name="GesturesSubscribe" />
+    <uses-privilege ml:name="Internet" />
     <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="MagicLeap Testing">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>

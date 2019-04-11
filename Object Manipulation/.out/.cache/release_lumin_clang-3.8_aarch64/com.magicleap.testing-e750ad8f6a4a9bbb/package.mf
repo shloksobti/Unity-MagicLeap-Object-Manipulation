@@ -16,7 +16,7 @@
   },
   {
    "compression": 8,
-   "hash": "10e35a5ffae22f4ef2058b0ac41cca8d317bc407",
+   "hash": "ecec4afc9c039cc65040d5b5039dc04760b4b762",
    "pkgpath": "bin/libil2cpp.so",
    "size": 33998512,
    "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/Native/libil2cpp.so",
@@ -29,7 +29,7 @@
      "version": 3
     }
    },
-   "xfrm_hash": "ac38c1ce6de8e50a43f353dda6f83a70befd7ec0",
+   "xfrm_hash": "c9d5548cc679a2e13048c8c30b756d3f0f474e88",
    "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/libil2cpp.so-f1cdc9f41c49f0b9",
    "xfrm_size": 33999270
   },
@@ -167,7 +167,7 @@
   },
   {
    "compression": 8,
-   "hash": "bbe82cb2e814d23694b6e18f549b1e0744c10384",
+   "hash": "3d85e4a6f35e7468f950f5a4932cc725be44f840",
    "pkgpath": "Data/globalgamemanagers",
    "size": 35500,
    "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/Data/globalgamemanagers"
@@ -221,9 +221,9 @@
   },
   {
    "compression": 8,
-   "hash": "29ed565d6585f619b5755cc9156689839141dabe",
+   "hash": "9b6e1fc914174868615aa72e169dc4c122d7e77a",
    "pkgpath": "manifest.xml",
-   "size": 641,
+   "size": 683,
    "src": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/Temp/StagingArea/manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -231,9 +231,9 @@
      "developer_id": "b1dea48f-c97e-49cd-bb5d-aace2010d01e"
     }
    },
-   "xfrm_hash": "bb62b1ddd8a664c08a2de6c097084c00bbeacdb9",
+   "xfrm_hash": "bdf9e57b16b3915bde8f15385d9425f4137f6d64",
    "xfrm_path": "/Users/shloksobti/Desktop/Unity Projects/Object Manipulation/.out/.cache/release_lumin_clang-3.8_aarch64/com.magicleap.testing-e750ad8f6a4a9bbb/manifest.xml-5687af7ae773bca8",
-   "xfrm_size": 654
+   "xfrm_size": 696
   },
   {
    "compression": 8,
